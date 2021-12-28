@@ -11,6 +11,8 @@ For now, only 2 languages are handled `French` and `English`
 The primary display is : 
 
 ![primary.png](.resReadme/primary.png)
+You see that students are displayed in alphabetical order,  and `NAME4` is displayed at the end in another color 
+it's because he is optional and so student optional are at the end with a different color. 
 
 You simply select the absents and then click the button to go to the next step.
 Or you can reverse the operation by selecting the checkbox on the bottom and then you select the presents persons 
