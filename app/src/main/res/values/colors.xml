@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#C83E4D</color>
+    <color name="colorPrimaryVariant">#2D3135</color>
+    <color name="colorOnPrimary">#F6E6E0</color>
+    <color name="colorSecondary">#C83E4D</color>
+    <color name="colorSecondaryVariant">#C57B57</color>
+    <color name="colorOnSecondary">#F6E6E0</color>
+
+    <color name="colorBackground">#32373B</color>
+    <color name="colorBackgroundVariant">#2D3135</color>
+    <color name="colorOptionnelText">#9A9897</color>
+
+</resources>

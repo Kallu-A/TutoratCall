@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Appel tutorat</string>
+    <string name="cours_du_textview">Cours du :</string>
+    <string name="sauvegarder_l_appel">Sauvegarder l\'appel</string>
+    <string name="appel_save_toast">Appel sauvegardé</string>
+    <string name="eleve_present_note_text">élèves présents</string>
+    <string name="title_activity_show_string">ShowStringActivity</string>
+
+    <string name="retour_en_arri_re">retour en arrière</string>
+    <string name="appelLabel">Appel</string>
+    <string name="appel_des_pr_sents">appel des présents</string>
+</resources>
