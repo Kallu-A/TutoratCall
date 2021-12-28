@@ -36,35 +36,13 @@ class DataBaseManager(context: Context): OrmLiteSqliteOpenHelper(context, DATABA
     }
     
     private fun init() {
-        dao.create(EleveData(name = "gouerec", firstname = "Jules"))
-        dao.create(EleveData(name = "belgeri", firstname = "Loris"))
-        dao.create(EleveData(name = "dupont", firstname = "Louis"))
-        dao.create(EleveData(name = "duchateau", firstname = "Camille"))
-        dao.create(EleveData(name = "ladiray", firstname = "Hugo"))
-        dao.create(EleveData(name = "gassmann", firstname = "Victor"))
-        dao.create(EleveData(name = "wittmann", firstname = "Gregory"))
-        dao.create(EleveData(name = "hayaf", firstname = "Adame"))
-        dao.create(EleveData(name = "martin", firstname = "Thiebaud"))
-        dao.create(EleveData(name = "robin", firstname = "Kylian"))
-        dao.create(EleveData(name = "renaux", firstname = "Anna"))
-        dao.create(EleveData(name = "guyenet", firstname = "Victor"))
-        dao.create(EleveData(name = "carvalho", firstname = "Mathis"))
-        dao.create(EleveData(name = "han", firstname = "Zhihang"))
-        dao.create(EleveData(name = "crugnola", firstname = "Loris"))
-        dao.create(EleveData(name = "delikaya", firstname = "Yusuf"))
-        dao.create(EleveData(name = "gavin", firstname = "Jeremie"))
-        dao.create(EleveData(name = "fischer", firstname = "Elise"))
-        dao.create(EleveData(name = "sabir", firstname = "Yassin"))
-        dao.create(EleveData(name = "idioux", firstname = "Thomas"))
-        dao.create(EleveData(name = "dizmbe olengue", firstname = "Jason"))
-        dao.create(EleveData(name = "mavaetau", firstname = "Malia Anna"))
+        //Modify here !!
+        dao.create(EleveData(name = "name1", firstname = "firstname1"))
+        dao.create(EleveData(name = "name2", firstname = "firstname2"))
+        dao.create(EleveData(name = "name3", firstname = "firstname3"))
+        dao.create(EleveData(name = "name4", firstname = "firstname4", optionnel = true))
+        dao.create(EleveData(name = "name5", firstname = "firstname5"))
 
-
-        dao.create(EleveData(name = "claus", firstname = "Ugo", optionnel = true))
-        dao.create(EleveData(name = "sow", firstname = "Amadou", optionnel = true))
-        dao.create(EleveData(name = "friouichen", firstname = "Mohammed", optionnel = true))
-        dao.create(EleveData(name = "edouard", firstname = "Lucas", optionnel = true))
-        dao.create(EleveData(name = "hugerot", firstname = "Quentin", optionnel = true))
     }
 
     fun getList(): TreeSet<EleveData> {
