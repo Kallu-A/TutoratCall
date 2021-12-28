@@ -8,5 +8,9 @@
     <string name="retour_en_arri_re">go back</string>
     <string name="appelLabel">List</string>
     <string name="appel_des_pr_sents">List of the present</string>
+    <string name="copy">"Copy ! "</string>
+    <string name="present">" presents:"</string>
+    <string name="absent">" absents:"</string>
+    <string name="optional_student">"Optional students "</string>
 
 </resources>

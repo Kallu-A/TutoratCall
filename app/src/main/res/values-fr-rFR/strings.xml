@@ -8,4 +8,8 @@
     <string name="retour_en_arri_re">retour en arrière</string>
     <string name="appelLabel">Appel</string>
     <string name="appel_des_pr_sents">appel des présents</string>
+    <string name="copy">Copié !</string>
+    <string name="present">" présents :"</string>
+    <string name="absent">" absents :"</string>
+    <string name="optional_student">"Élèves optionnels "</string>
 </resources>
