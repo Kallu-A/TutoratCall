@@ -43,7 +43,7 @@ class ShowResultActivity : AppCompatActivity() {
             val clip: ClipData = ClipData.newPlainText(getString(R.string.appelLabel), text.toString())
             val clipboard = getSystemService(CLIPBOARD_SERVICE) as ClipboardManager
             clipboard.setPrimaryClip(clip)
-            Toast.makeText(this, "Copié !", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.copy), Toast.LENGTH_SHORT).show()
 
         }
 

@@ -80,11 +80,11 @@ class MainActivity : AppCompatActivity() {
         val text = StringBuilder()
 
         val presentBool = cocherPresent!!.isChecked
-        val strTempo = if (presentBool) " présents : " else " absents : "
+        val strTempo = if (presentBool) getString(R.string.present) else getString(R.string.absent)
         text.append(dateDisplayText!!.text).append(strTempo).append("\n\n"
         )
         var textOpt = StringBuilder()
-        textOpt.append("Élèves optionnels ").append(strTempo).append("\n\n")
+        textOpt.append(getString(R.string.optional_student)).append(strTempo).append("\n\n")
 
         var nombreAbs = 0
         var nombreAbsOpt = 0
